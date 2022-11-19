@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mobile{
+            width: 800px;
+            height: 600px;
+            border: 1px solid rgba(0, 0, 0, 0.884);
+            background-color: rgba(0, 0, 0, 0.831);
+        }
+        #sub{
+            width: 340px;
+            height: 590px;
+            border: 3px solid white;
+            box-shadow: 0px 0px 10px 10px;
+            border-radius: 15px;
+        }
+        #sub1{
+            width: 430px;
+            height: 590px;
+            border: 1px solid black;
+            margin-left: 350px;
+            margin-top: -600px;
+        }
+        #subbox{
+            width: 330px;
+            height: 40px;
+            border: 1px solid black;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        #subbox1{
+            width: 380px;
+            height: 400px;
+            /* border: 1px solid black; */
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        #subbox2{
+            width: 330px;
+            height: 350px;
+            border: 1px solid black;
+            margin-left: 3px;
+            margin-top: 170px;
+        }
+        #subbox3{
+            width: 330px;
+            height: 50px;
+            border: 1px solid black;
+            margin-left: 3px;
+            margin-top: -400px;
+            color: white;
+        }
+        p{
+            font-size: 60px;
+            color: white;
+        }
+        #iphone{
+            font-size: 80px;
+            margin-top: -50px;
+            color: white;
+        }
+        #java{
+            color: yellow;
+            font-size: 65px;
+        }
+        #in{
+            margin-top: -30px;
+            font-size: 65px;
+            color: white;
+        }
+        #circle1{
+        width: 100%;
+        height: 8vh;
+        /* border: 1px solid black; */
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+       
+        padding: 10px;
+            
+        }
+        #circle1_1,#circle1_2,#circle1_3,#circle1_4{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 40px;
+            background-color:rgba(0, 0, 0, 0.575);
+            color:white;
+            text-align: center;
+        }
+        #circle2{
+        width: 100%;
+        height: 8vh;
+        /* border: 1px solid black; */
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+       
+        padding: 10px;
+            
+        }
+        #circle2_1,#circle2_2,#circle2_3,#circle2_4{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 40px;
+            background-color:rgba(0, 0, 0, 0.575);
+            color:white;
+            text-align: center;
+        }
+        #circle3{
+        width: 100%;
+        height: 8vh;
+        /* border: 1px solid black; */
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+       
+        padding: 10px;
+            
+        }
+        #circle3_1,#circle3_2,#circle3_3,#circle3_4{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 40px;
+            background-color:rgba(0, 0, 0, 0.575);
+            color:white;
+            text-align: center;
+        }
+        #circle4{
+        width: 100%;
+        height: 8vh;
+        /* border: 1px solid black; */
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+       
+        padding: 10px;
+            
+        }
+        #circle4_1,#circle4_2,#circle4_3,#circle4_4{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 40px;
+            background-color:rgba(0, 0, 0, 0.575);
+            color:white;
+            text-align: center;
+        }
+        #circle5{
+        width: 100%;
+        height: 8vh;
+        /* border: 1px solid black; */
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+       
+        padding: 10px;
+            
+        }
+        #circle5_1,#circle5_2,#circle5_3,#circle5_4{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 40px;
+            background-color:rgba(0, 0, 0, 0.575);
+            color:white;
+            text-align: center;
+        }
+        #circle1_1,#circle1_2,#circle1_3{
+            background-color: white;
+            color: black;
+        }
+        #circle1_4,#circle2_4,#circle3_4,#circle4_4,#circle5_4{
+            background-color: yellow;
+            color:black;
+        }
+        #img{
+            width: 10px;
+            height: 10px;
+            margin-left: 290px;
+            margin-top: -27px;
+            display:flex;
+        }
+        #charge{
+            width: 15px;
+            height: 5px;
+            border: 1px solid white;
+            margin-left: 310px;
+            margin-top: -8px;
+            background-color: white;
+            border-radius: 3px;
+        }
+        #mainsignal{
+            width: 30px;
+            height: 20px;
+            /* border: 1px solid blue; */
+            margin-left: 245px;
+            margin-top: -35px;
+        }
+        #signal1{
+            width: 4px;
+            height: 4px;
+            border: 1px solid wheat;
+            background-color: aliceblue;
+            margin-top: 15px;
+        }
+        #signal2{
+            width: 4px;
+            height: 8px;
+            border: 1px solid wheat;
+            margin-top: -10px;
+            margin-left: 8px;
+            background-color: aliceblue;
+        }
+        #signal3{
+            width: 4px;
+            height: 12px;
+            border: 1px solid wheat;
+            margin-top: -14px;
+            margin-left: 15px;
+            background-color: aliceblue;
+        }
+        #signal4{
+            width: 4px;
+            height: 16px;
+            border: 1px solid wheat;
+            margin-top: -18px;
+            margin-left: 22px;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="mobile">
+        <div id="sub">
+            <div id="subbox">
+                <p style="font-size:16px ;">14:20</p>
+                <div id="mainsignal">
+                    <div id="signal1"></div>
+                    <div id="signal2"></div>
+                    <div id="signal3"></div>
+                    <div id="signal4"></div>
+
+                </div>
+                <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxl_ZCm6s_X2pjSRz0o8TaLBNGJ9NjyVTYyA&usqp=CAU" alt="">
+                <div id="charge"></div>
+            </div>
+            <div id="subbox2">
+                <div id="circle1">
+                    <div id="circle1_1"><h3>AC</h3></div>
+                    <div id="circle1_2"><h3>±</h3></div>
+                    <div id="circle1_3"><h3>%</h3></div>
+                    <div id="circle1_4"><h3>÷</h3></div>
+
+
+                </div>
+                <div id="circle2">
+                    <div id="circle2_1"><h3>7</h3></div>
+                    <div id="circle2_2"><h3>8</h3></div>
+                    <div id="circle2_3"><h3>9</h3></div>
+                    <div id="circle2_4"><h3>×</h3></div>
+
+
+                </div>
+                <div id="circle3">
+                    <div id="circle3_1"><h3>4</h3></div>
+                    <div id="circle3_2"><h3>5</h3></div>
+                    <div id="circle3_3"><h3>6</h3></div>
+                    <div id="circle3_4"><h3>-</h3></div>
+
+
+                </div>
+                <div id="circle4">
+                    <div id="circle4_1"><h3>1</h3></div>
+                    <div id="circle4_2"><h3>2</h3></div>
+                    <div id="circle4_3"><h3>3</h3></div>
+                    <div id="circle4_4"><h3>+</h3></div>
+
+
+                </div>
+                <div id="circle5">
+                    <div id="circle5_1"><h3>00</h3></div>
+                    <div id="circle5_2"><h3>0</h3></div>
+                    <div id="circle5_3"><h3>.</h3></div>
+                    <div id="circle5_4"><h3>=</h3></div>
+
+
+                </div>
+                
+
+                
+                
+
+
+            <span style="margin-top:1 px;" ><hr></span>
+            </div>
+            <div id="subbox3">
+                <!-- <p>1,3337.3</p> -->
+                <h2 style="margin-left:250px;">1,337.3</h2>
+            </div>
+            
+
+        </div>
+        <div id="sub1">
+            <div id="subbox1">
+                <p>Build an</p>
+                <h1 id="iphone"><strong>iPhone<br>Calculator</strong></h1>
+                <p id="in">in <strong id="java">JavaScript</strong></p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

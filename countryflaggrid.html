@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1{
+        width: 100%;
+        height: 120vh;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto ;
+        /* grid-auto-rows: auto auto auto; */
+        padding: 10px;
+    }
+    #flag1,#flag2,#flag3,#flag4,#flag5,#flag6,#flag7,#flag8,#flag9,#flag10{
+    /* width: 15vw;
+    height: 21vh;
+    border: 1px solid black; */
+        width: 35vh;
+        height: 30vh;
+        border: 1px solid black;
+        margin-top: 30px;
+}
+    #flag1{
+        width: 35vh;
+        height: 30vh;
+        border: 1px solid black;
+        margin-top: 30px;
+        /* padding: 0px; */
+
+    }
+    #saffron{
+        height: 33%;
+        width: 16.7vw;
+        background-color: orange;
+      }
+      #white{
+        height: 33.3%;
+        width:16.7vw;
+        background-color:white;
+
+      }
+      #green{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color: green;
+      }
+      #circle{
+        width: 33.3%;
+        height: 33%;
+       
+        border-radius: 50%;
+        margin: auto;
+        
+      }
+      img{
+        width: 100%;
+        height: 300%;
+      }
+    
+    #flag2{
+        width: 35vh;
+        height: 30vh;
+        border: 1px solid black;
+        margin-top: 30px;
+        /* padding: 0px; */
+
+    }
+      #red{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color: red;
+      }
+      #white1{
+        height: 33.3%;
+        width:16.7vw;
+        background-color: white;
+
+      }
+      #red1{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color:red;
+      }
+      #flag3{
+        width: 35vh;
+        height: 30vh;
+        border: 1px solid black;
+        margin-top: 30px;
+      }
+      #red2{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color: maroon;
+      }
+      #white2{
+        height: 33.3%;
+        width:16.7vw;
+        background-color: white;
+
+      }
+      #blue{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color:blue;
+      }
+      /* #flag4{
+        display: flex;
+        flex-direction: column;
+        width:35vw;
+        height: 30vh;
+        border: 1px solid black;
+      } */
+      #black{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color: black;
+      }
+      #red3{
+        height: 33.3%;
+        width:16.7vw;
+        background-color: red;
+
+      }
+      #yellow{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color:yellow;
+      }
+      #sky1{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color:skyblue;
+      }
+      #white3{
+        height: 33.3%;
+        width:16.7vw;
+        background-color: white;
+
+      }
+      #sky2{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color:skyblue;
+      }
+      #circle1{
+        width: 33.3%;
+        height: 33%;
+       
+        border-radius: 50%;
+        margin: auto;
+        
+      }
+      #img1{
+        width: 100%;
+        height: 300%;
+      }
+      #sky3{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color:skyblue;
+      }
+      #red4{
+        height: 33.3%;
+        width:16.7vw;
+        background-color: #d11b1b;
+
+      }
+      #green1{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color:green;
+      }
+      #circle2{
+        width: 33.3%;
+        height: 33%;
+       
+        border-radius: 50%;
+        margin: auto;
+        
+      }
+      #img2{
+        width: 100%;
+        height: 300%;
+      }
+      #maroon{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color:rgb(192, 25, 25);
+      }
+      #maroon1{
+        height: 33.3%;
+        width:16.7vw;
+        background-color: rgb(194, 34, 34);
+
+      }
+      #maroon2{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color:rgb(195, 29, 29);
+      }
+      #circle3{
+        width: 33.3%;
+        height: 33%;
+       
+        border-radius: 50%;
+        margin: auto;
+        
+      }
+      #img3{
+        width: 100%;
+        height: 300%;
+      }
+      #white4{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color: white;
+      }
+      #blue1{
+        height: 33.3%;
+        width:16.7vw;
+        background-color: blue;
+
+      }
+      #red5{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color:rgb(211, 40, 40);
+      }
+      #white5{
+        height: 33%;
+        width: 16.7vw;
+        background-color: white;
+      }
+      #white6{
+        height: 33.3%;
+        width:16.7vw;
+        background-color:white;
+
+      }
+      #white7{
+        height: 33.3%;
+        width: 16.7vw;
+        background-color: white;
+      }
+      #circle{
+        width: 60%;
+        height: 60%;
+       
+        border-radius: 50%;
+        margin-top: -28px;
+        /* margin: auto; */
+        
+      }
+      img{
+        width: 100%;
+        height: 300%;
+      }
+      #image{
+        width: 100%;
+        height: 100%;
+      }
+
+</style>
+</head>
+<body>
+    <div id="box1">
+        <div id="flag1">
+        <div id="saffron"></div>
+        <div id="white"><div id="circle"><img src="https://clipground.com/images/indian-flag-ashoka-chakra-png-8.png" alt=""> </div> </div>
+        <div id="green"></div><br>
+    </div>
+        <div id="flag2">
+            <div id="red"></div>
+            <div id="white1"></div>
+            <div id="red1"></div>
+           
+        </div>
+        <div id="flag3">
+            <div id="red2"></div>
+            <div id="white2"></div>
+            <div id="blue"></div>
+        </div>
+        <div id="flag4">
+            <div id="black"></div>
+            <div id="red3"></div>
+            <div id="yellow"></div>
+        </div>
+        <div id="flag5">
+            <div id="sky1"></div>
+            <div id="white3"><div id="circle1"><img id="img1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sol_de_Mayo-Bandera_de_Argentina.svg/768px-Sol_de_Mayo-Bandera_de_Argentina.svg.png" alt=""> </div></div>
+            <div id="sky2"></div>
+    
+        </div>
+        <div id="flag6">
+            <div id="sky3"></div>
+            <div id="red4"><div id="circle2"><img id="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/220px-Flag_of_Turkey.svg.png" alt=""> </div></div>
+            <div id="green1"></div>
+        </div>
+        <div id="flag7">
+            <div id="maroon"></div>
+        <div id="maroon1"><div id="circle3"><img id="img3" src="https://cdn.britannica.com/41/4041-004-D051B135/Flag-Vietnam.jpg" alt=""> </div></div>
+
+        <div id="maroon2"></div>
+        </div>
+        <div id="flag8">
+            <div id="white4"></div>
+            <div id="blue1"></div>
+            <div id="red5"></div>
+        </div>
+        <div id="flag9">
+            <div id="white5"></div>
+            <div id="white6"><div id="circle"><img src="https://www.artisanwine.asia/image/artisanwine/image/data/Flag-Japan.jpg" alt=""> </div></div>
+            <div id="white7"></div>
+        </div>
+        <div id="flag10">
+            <img id="image" src="https://seeklogo.com/images/F/france-flag-logo-DBC61B59A7-seeklogo.com.png" alt="">
+        </div>
+    </div>
+
+    
+</body>
+</html>
