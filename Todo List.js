@@ -17,9 +17,9 @@ function displayData(){
     allData.map((item,index)=>{
         tableBody.innerHTML+=`
         <tr>
-        <td>${item.input} <button onclick="editName(${index})">edit</button> </td>
+        <td>${item.input} <button id="edit" onclick="editName(${index})">edit</button> </td>
     
-       <td> <button onclick="deleteRow(${index})">Delete </button> </td>
+       <td> <button id="delete" onclick="deleteRow(${index})">Delete </button> </td>
 
         </tr>
         `
